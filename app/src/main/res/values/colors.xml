@@ -4,8 +4,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <!--Menu-->
-    <color name="menu_background">#1E1E1E</color>
-    <color name="menu_background_item">#2d2d2d</color>
-    <color name="menu_text">#FFFFFF</color>
-    <color name="menu_text_description">#9e9e9e</color>
+    <color name="menu_background">#fffefb</color>
+    <color name="menu_background_item">#f5f4f1</color>
+    <color name="menu_text">#1d1c1c</color>
+    <color name="menu_text_description">#313d44</color>
 </resources>

@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="24sp"
+        android:textColor="@color/menu_text"
         android:text="¿Cómo te llamas?" />
     <EditText
         android:id="@+id/etName"
@@ -28,5 +29,5 @@
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textWebEmailAddress"
-        android:hint="Name" />
+        android:hint="ingresa tu nombre" />
 </RelativeLayout>

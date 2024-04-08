@@ -7,10 +7,10 @@
     android:background="@color/menu_background_item"
     tools:context=".a3firstapp.ResultActivity">
     <TextView
-        android:id="@+id/tvGreeting"
+        android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/menu_text"
         android:text="@string/welcome"
         android:layout_centerInParent="true"
         android:textSize="30sp"/>
