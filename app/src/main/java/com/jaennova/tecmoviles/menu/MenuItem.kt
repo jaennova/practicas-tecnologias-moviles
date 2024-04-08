@@ -7,7 +7,7 @@ data class MenuItem(val title: String, val iconResId: Int, val description: Stri
 val menuItems = listOf(
     MenuItem(
         "Life Cycle",
-        R.drawable.ic_launcher_foreground,
+        R.drawable.ic_cycle,
         "Aplicación sobre el ciclo de vida de un Activity"
     ),
     MenuItem(
@@ -22,7 +22,7 @@ val menuItems = listOf(
     ),
     MenuItem(
         "Super Hero List",
-        R.drawable.ic_firstapp,
-        "Aplicacion simple que hace uso de recycler views"
+        R.drawable.ic_superhero,
+        "Aplicacion de superherores que hace uso de recycler views"
     ),
 )
