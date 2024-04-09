@@ -23,6 +23,6 @@ class ResultActivity : AppCompatActivity() {
     private fun getAndShowName() {
         tvResult = findViewById(R.id.tvResult)
         val name: String = intent.extras?.getString(EXTRA_NAME).orEmpty()
-        tvResult.text = getString(R.string.welcome, name)
+        tvResult.text = "Bienvenido! $name"
     }
 }
