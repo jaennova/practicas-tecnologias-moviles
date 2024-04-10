@@ -3,6 +3,7 @@ package com.jaennova.tecmoviles.a4recyclerview
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.jaennova.tecmoviles.R
 import com.squareup.picasso.Picasso
@@ -18,5 +19,10 @@ class SuperHeroViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         realName.text = superheroList.realName
         publisher.text = superheroList.publisher
         Picasso.get().load(superheroList.photo).into(avatar)
+        itemView.setOnClickListener { showSuperheroName(superheroList.superhero) }
+    }
+
+    private fun showSuperheroName(superhero: String) {
+        Toast.makeText(itemView.context, superhero, Toast.LENGTH_SHORT).show()
     }
 }
