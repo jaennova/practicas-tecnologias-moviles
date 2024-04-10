@@ -29,7 +29,7 @@ class MenuViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         when (menuItem.title) {
             "Life Cycle" -> openActivity(LifeCycleActivity::class.java)
             "Dice Roll" -> openActivity(DiceRollActivity::class.java)
-            "First App" -> openActivity(FirstAppActivity::class.java)
+            "Greeting" -> openActivity(FirstAppActivity::class.java)
             "Super Hero List" -> openActivity(SuperHeroListActivity::class.java)
         }
     }

@@ -16,7 +16,7 @@ val menuItems = listOf(
         "Aplicacion simple que simula la acción de un dado"
     ),
     MenuItem(
-        "First App",
+        "Greeting",
         R.drawable.ic_firstapp,
         "Aplicacion simple que usa intents"
     ),
