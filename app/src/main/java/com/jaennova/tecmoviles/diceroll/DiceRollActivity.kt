@@ -1,25 +1,22 @@
 package com.jaennova.tecmoviles.diceroll
 
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.jaennova.tecmoviles.R
+import com.jaennova.tecmoviles.databinding.ActivityDiceRollBinding
 
 class DiceRollActivity : AppCompatActivity() {
-    private lateinit var btnDice: Button
-    private lateinit var ivDice: ImageView
+    private lateinit var binding: ActivityDiceRollBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dice_roll)
-        btnDice = findViewById(R.id.btnDice)
-        btnDice.setOnClickListener { rollDice() }
+        binding = ActivityDiceRollBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.btnDice.setOnClickListener { rollDice() }
     }
 
     private fun rollDice() {
         val randomDice = (1..6).random()
-        ivDice = findViewById(R.id.ivDice)
-        ivDice.setImageResource(getDiceDrawableResource(randomDice))
+        binding.ivDice.setImageResource(getDiceDrawableResource(randomDice))
     }
 
     private fun getDiceDrawableResource(diceValue: Int): Int {
