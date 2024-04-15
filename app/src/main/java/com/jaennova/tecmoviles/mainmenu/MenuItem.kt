@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.menu
+package com.jaennova.tecmoviles.mainmenu
 
 import com.jaennova.tecmoviles.R
 

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/menu_background"
     android:orientation="vertical"
-    tools:context=".menu.MainActivity">
+    tools:context=".mainmenu.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"

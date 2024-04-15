@@ -14,22 +14,22 @@
         android:theme="@style/Theme.TecMoviles"
         tools:targetApi="31">
         <activity
-            android:name=".a4recyclerview.SuperHeroListActivity"
+            android:name=".superheroapp.SuperHeroListActivity"
             android:exported="false" />
         <activity
-            android:name=".a3firstapp.ResultActivity"
+            android:name=".greetingapp.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".a3firstapp.FirstAppActivity"
+            android:name=".greetingapp.FirstAppActivity"
             android:exported="false" />
         <activity
-            android:name=".a2diceroll.DiceRollActivity"
+            android:name=".diceroll.DiceRollActivity"
             android:exported="false" />
         <activity
-            android:name=".a1lifecycle.LifeCycleActivity"
+            android:name=".lifecycleexample.LifeCycleActivity"
             android:exported="false" />
         <activity
-            android:name=".menu.MainActivity"
+            android:name=".mainmenu.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

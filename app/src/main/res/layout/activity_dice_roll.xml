@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="44dp"
-    tools:context=".a2diceroll.DiceRollActivity">
+    tools:context=".diceroll.DiceRollActivity">
 
     <TextView
         android:layout_width="wrap_content"

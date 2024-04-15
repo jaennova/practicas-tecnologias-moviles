@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.a3firstapp
+package com.jaennova.tecmoviles.greetingapp
 
 import android.content.Intent
 import android.os.Bundle

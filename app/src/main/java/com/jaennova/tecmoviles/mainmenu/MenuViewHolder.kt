@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.menu
+package com.jaennova.tecmoviles.mainmenu
 
 import android.content.Intent
 import android.view.View
@@ -6,10 +6,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.jaennova.tecmoviles.R
-import com.jaennova.tecmoviles.a1lifecycle.LifeCycleActivity
-import com.jaennova.tecmoviles.a2diceroll.DiceRollActivity
-import com.jaennova.tecmoviles.a3firstapp.FirstAppActivity
-import com.jaennova.tecmoviles.a4recyclerview.SuperHeroListActivity
+import com.jaennova.tecmoviles.lifecycleexample.LifeCycleActivity
+import com.jaennova.tecmoviles.diceroll.DiceRollActivity
+import com.jaennova.tecmoviles.greetingapp.FirstAppActivity
+import com.jaennova.tecmoviles.superheroapp.SuperHeroListActivity
 
 class MenuViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     private val tvTitleApp: TextView = itemView.findViewById(R.id.tvTitleApp)

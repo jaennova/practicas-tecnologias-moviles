@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.a3firstapp
+package com.jaennova.tecmoviles.greetingapp
 
 import android.os.Bundle
 import android.widget.Button
@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.jaennova.tecmoviles.R
-import com.jaennova.tecmoviles.a3firstapp.FirstAppActivity.Companion.EXTRA_NAME
+import com.jaennova.tecmoviles.greetingapp.FirstAppActivity.Companion.EXTRA_NAME
 
 class ResultActivity : AppCompatActivity() {
     private lateinit var btnBack: Button

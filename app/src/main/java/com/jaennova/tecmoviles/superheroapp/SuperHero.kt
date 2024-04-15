@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.a4recyclerview
+package com.jaennova.tecmoviles.superheroapp
 
 data class Superhero(
     var superhero: String,

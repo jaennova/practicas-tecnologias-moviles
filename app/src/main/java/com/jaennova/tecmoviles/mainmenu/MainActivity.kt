@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.menu
+package com.jaennova.tecmoviles.mainmenu
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

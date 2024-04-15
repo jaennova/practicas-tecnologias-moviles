@@ -1,4 +1,4 @@
-package com.jaennova.tecmoviles.a4recyclerview
+package com.jaennova.tecmoviles.superheroapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
