@@ -6,17 +6,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.jaennova.tecmoviles.R
+import com.jaennova.tecmoviles.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var rvMenu: RecyclerView
+    private lateinit var binding: ActivityMainBinding
     private lateinit var menuAdapter: MenuAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        rvMenu = findViewById(R.id.rvMenu)
-        rvMenu.layoutManager = LinearLayoutManager(this)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.rvMenu.layoutManager = LinearLayoutManager(this)
         menuAdapter = MenuAdapter(this, menuItems)
-        rvMenu.adapter = menuAdapter
+        binding.rvMenu.adapter = menuAdapter
     }
 }
