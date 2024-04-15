@@ -8,12 +8,11 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.jaennova.tecmoviles.R
+import com.jaennova.tecmoviles.databinding.ActivityFirstAppBinding
 
 class FirstAppActivity : AppCompatActivity() {
 
-    private lateinit var etName: EditText
-    private lateinit var btnChangeActivity: Button
-
+    private lateinit var binding: ActivityFirstAppBinding
     companion object {
         const val EXTRA_NAME = "EXTRA_NAME"
     }
@@ -22,21 +21,15 @@ class FirstAppActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_first_app)
 
-        initializeViews()
         setListeners()
     }
 
-    private fun initializeViews() {
-        etName = findViewById(R.id.etName)
-        btnChangeActivity = findViewById(R.id.btnChangeActivity)
-    }
-
     private fun setListeners() {
-        btnChangeActivity.setOnClickListener { checkValue() }
+        binding.btnChangeActivity.setOnClickListener { checkValue() }
     }
 
     private fun checkValue() {
-        val name = etName.text.toString()
+        val name = binding.etName.text.toString()
         if (name.isEmpty()) {
             "el nombre no puede estar vacio".showToast()
         } else {
