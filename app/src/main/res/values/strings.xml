@@ -3,4 +3,44 @@
     <string name="roll_dice">Girar dado</string>
     <string name="welcome">¡Bienvenido, %s!</string>
     <string name="back">Volver</string>
+
+    <!--BMI Calculator-->
+    <string name="bmi_app_title">BMI Calculator</string>
+    <string name="bmi_female">Mujer</string>
+    <string name="bmi_male">Hombre</string>
+    <string name="bmi_height">Altura</string>
+    <string name="bmi_initial_height">120 cm</string>
+    <string name="bmi_weight">Peso</string>
+    <string name="bmi_age">Edad</string>
+    <string name="bmi_calculate">Calcular</string>
+    <string name="bmi_result">Resultado</string>
+    <string name="bmi_your_bmi">Tu IMC es:</string>
+    <string name="bmi_result_detail">Dieta y nutricion</string>
+    <string name="bmi_recalculate">Recalcular</string>
+    <!-- BMI Categories -->
+    <string name="bmi_underweight">Bajo peso</string>
+    <string name="bmi_normal">Peso normal</string>
+    <string name="bmi_overweight">Sobrepeso</string>
+    <string name="bmi_obesity">Obesidad</string>
+    <string name="bmi_error_category_invalid">Error: IMC inválido</string>
+    <!-- BMI Recommendations -->
+    <string name="bmi_underweight_recomendation">
+    Dieta y Nutrición\nAumenta la Ingesta Calórica:\n\t•\tConsume más alimentos ricos en calorías como nueces, aguacates y aceites saludables.\n\t•\tIncrementa el tamaño de las porciones durante las comidas.\nElige Alimentos Densos en Nutrientes:\n\t•\tPrioriza alimentos ricos en proteínas (carnes magras, pescado, huevos, legumbres).\n\t•\tIncluye carbohidratos complejos (cereales integrales, batatas) para obtener energía sostenida.\n\t•\tConsume abundantes frutas y verduras para obtener vitaminas y minerales esenciales.
+</string>
+
+    <string name="bmi_normal_recomendation">
+    Dieta y Nutrición\nMantén una Dieta Equilibrada:\n\t•\tConsume una variedad de alimentos de todos los grupos alimenticios en proporciones adecuadas.\n\t•\tElige opciones de proteínas magras como pollo, pavo, pescado y tofu.\n\t•\tIncluye una variedad de carbohidratos, preferiblemente integrales, como arroz integral, quinoa y pasta integral.\n\t•\tAsegúrate de obtener suficientes grasas saludables de fuentes como aguacates, nueces y aceite de oliva.
+</string>
+
+    <string name="bmi_overweight_recomendation">
+    Dieta y Nutrición\nControla el Tamaño de las Porciones:\n\t•\tReduce el tamaño de las porciones para limitar la ingesta de calorías.\n\t•\tOpta por alimentos bajos en calorías y densos en nutrientes, como frutas, verduras y proteínas magras.\n\t•\tLimita el consumo de alimentos procesados y aquellos altos en grasas saturadas y azúcares añadidos.\nAumenta la Actividad Física:\n\t•\tIncorpora ejercicio regularmente, como caminar, nadar o practicar deportes.
+</string>
+
+    <string name="bmi_obesity_recomendation">
+    Dieta y Nutrición\nEstablece Metas Realistas:\n\t•\tFija objetivos alcanzables y a corto plazo para mejorar tu salud.\n\t•\tAdopta un enfoque gradual para realizar cambios en tus hábitos alimenticios y estilo de vida.\n\t•\tBusca apoyo de amigos, familiares o un profesional de la salud para mantenerte motivado.\nPrioriza la Calidad de los Alimentos:\n\t•\tElige alimentos integrales y frescos en lugar de opciones procesadas y ricas en calorías.
+</string>
+
+    <!-- Errores de recomendaciones -->
+    <string name="bmi_error_recommendation_unknown">Error: Recomendación desconocida</string>
+    <string name="bmi_recommendation_title">Recomendacion</string>
 </resources>

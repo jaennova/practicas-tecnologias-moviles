@@ -25,4 +25,9 @@ val menuItems = listOf(
         R.drawable.ic_superhero,
         "Aplicacion de superherores que hace uso de recycler views"
     ),
+    MenuItem(
+        "BMI Calculator",
+        R.drawable.ic_bmi_app,
+        "Aplicacion que calcula el indice de masa corporal"
+    ),
 )

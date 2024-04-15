@@ -8,4 +8,20 @@
     <color name="menu_background_item">#f5f4f1</color>
     <color name="menu_text">#1d1c1c</color>
     <color name="menu_text_description">#313d44</color>
+
+    <!--BMI Calculator-->
+    <!-- Colores primarios -->
+    <color name="bmi_colorPrimary">#3F51B5</color>
+    <color name="bmi_colorPrimaryDark">#757de8</color>
+    <color name="bmi_colorPrimaryLight">#dedeff</color>
+    <!-- Colores de acento -->
+    <color name="bmi_colorAccent">#FF4081</color>
+    <color name="bmi_colorAccentLight">#ffe4ff</color>
+    <!-- Colores de texto -->
+    <color name="bmi_colorTextPrimary">#FFFFFF</color>
+    <color name="bmi_colorTextSecondary">#CCCCCC</color>
+    <!-- Colores de fondo -->
+    <color name="bmi_colorBackgroundPrimary">#333333</color>
+    <color name="bmi_colorBackgroundSecondary">#2C2C2C</color>
+    <color name="bmi_colorBackgroundTertiary">#1A1A1A</color>
 </resources>
