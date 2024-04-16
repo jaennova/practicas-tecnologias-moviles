@@ -18,13 +18,9 @@ class FirstAppActivity : AppCompatActivity() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_first_app)
+        binding = ActivityFirstAppBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        setListeners()
-    }
-
-    private fun setListeners() {
         binding.btnChangeActivity.setOnClickListener { checkValue() }
     }
 
