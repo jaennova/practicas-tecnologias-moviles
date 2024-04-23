@@ -24,4 +24,10 @@
     <color name="bmi_colorBackgroundPrimary">#333333</color>
     <color name="bmi_colorBackgroundSecondary">#2C2C2C</color>
     <color name="bmi_colorBackgroundTertiary">#1A1A1A</color>
+
+    <!--    Calculator-->
+    <color name="back1">#571954</color>
+    <color name="back2">#2C003C</color>
+    <color name="back3">#3D0B45</color>
+    <color name="soft_purple">#623C6F</color>
 </resources>

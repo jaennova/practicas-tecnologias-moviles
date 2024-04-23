@@ -30,4 +30,9 @@ val menuItems = listOf(
         R.drawable.ic_bmi_app,
         "Aplicacion que calcula el indice de masa corporal"
     ),
+    MenuItem(
+        "Calculator",
+        R.drawable.ic_calculator,
+        "Aplicacion que calcula el resultado de una operacion"
+    )
 )

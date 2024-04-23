@@ -4,6 +4,7 @@ import android.content.Intent
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.jaennova.tecmoviles.bmicalculator.BmiCalculatorActivity
+import com.jaennova.tecmoviles.calculator.CalculatorActivity
 import com.jaennova.tecmoviles.databinding.MenuItemBinding
 import com.jaennova.tecmoviles.lifecycleexample.LifeCycleActivity
 import com.jaennova.tecmoviles.diceroll.DiceRollActivity
@@ -29,6 +30,7 @@ class MenuViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             "Greeting" -> openActivity(FirstAppActivity::class.java)
             "Super Hero List" -> openActivity(SuperHeroListActivity::class.java)
             "BMI Calculator" -> openActivity(BmiCalculatorActivity::class.java)
+            "Calculator" -> openActivity(CalculatorActivity::class.java)
         }
     }
 
