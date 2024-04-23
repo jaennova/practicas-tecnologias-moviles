@@ -59,7 +59,7 @@
             android:layout_columnWeight="1"
             android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:contentDescription="@string/divide_desc"
+            android:contentDescription="@string/ac_desc"
             android:src="@drawable/ac" />
 
         <ImageButton
