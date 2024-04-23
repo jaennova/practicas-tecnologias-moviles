@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@color/black"
     tools:context=".calculator.CalculatorActivity">
 
     <!--  formula  -->
@@ -49,244 +49,234 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvResult">
         <!--  Buttons  -->
-        <com.google.android.material.button.MaterialButton
+
+        <ImageButton
             android:id="@+id/clear"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
-            android:layout_columnSpan="2"
-            android:layout_columnWeight="2"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/soft_purple"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/c"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/divide_desc"
+            android:src="@drawable/ac" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/plus"
+        <ImageButton
+            android:id="@+id/toggle_negative"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/soft_purple"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/plus"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/toggle_neg_desc"
+            android:src="@drawable/toggle_negative" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/devide"
+        <ImageButton
+            android:id="@+id/percent"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/soft_purple"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/divide"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/percentage_desc"
+            android:src="@drawable/percentage" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/divide_desc"
+            android:src="@drawable/divider" />
+
+        <ImageButton
             android:id="@+id/seven"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_7"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/seven_desc"
+            android:src="@drawable/seven" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/eight"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_8"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/eight_desc"
+            android:src="@drawable/eight" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/nine"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_9"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/nine_desc"
+            android:src="@drawable/nine" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/multiply"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/soft_purple"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/multiply"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/multiply"
+            android:src="@drawable/multiply" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/four"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_4"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/four_desc"
+            android:src="@drawable/four" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/five"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_5"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/five_desc"
+            android:src="@drawable/five" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/six"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_6"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/six_desc"
+            android:src="@drawable/six" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/mines"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/soft_purple"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/mines"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/subtraction_desc"
+            android:src="@drawable/subtraction" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/one"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_1"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/one_desc"
+            android:src="@drawable/one" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/two"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_2"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/two_desc"
+            android:src="@drawable/two" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/three"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_3"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/three_desc"
+            android:src="@drawable/three" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/equal"
+        <ImageButton
+            android:id="@+id/plus"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_rowSpan="2"
-            android:layout_rowWeight="2"
+            android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/soft_purple"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/equal"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/plus"
+            android:src="@drawable/addition" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/zero"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="2"
-            android:layout_columnWeight="2"
-            android:layout_marginEnd="10dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/_0"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/zero_desc"
+            android:src="@drawable/zero" />
 
-        <com.google.android.material.button.MaterialButton
+        <ImageButton
             android:id="@+id/dot"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:layout_marginEnd="10dp"
+            android:layout_marginHorizontal="10dp"
             android:background="@android:color/transparent"
-            android:fontFamily="@font/montserrat_medium"
-            android:text="@string/dot"
-            android:textSize="30sp"
-            app:cornerRadius="15dp" />
+            android:contentDescription="@string/decimal_add_desc"
+            android:src="@drawable/decimal_add" />
+
+        <ImageButton
+            android:id="@+id/equal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/equal_desc"
+            android:src="@drawable/equal" />
     </GridLayout>
 
 

@@ -3,6 +3,7 @@ package com.jaennova.tecmoviles.calculator
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -34,8 +35,8 @@ class CalculatorActivity : AppCompatActivity() {
 
     private fun initViews() {
         binding.apply {
-            binding.layoutMain.children.filterIsInstance<Button>().forEach { button: Button ->
-                button.setOnClickListener { handleButtonClick(button.text.toString()) }
+            binding.layoutMain.children.filterIsInstance<ImageButton>().forEach { button: ImageButton ->
+                button.setOnClickListener { handleButtonClick(button.contentDescription.toString()) }
             }
         }
     }
@@ -64,7 +65,31 @@ class CalculatorActivity : AppCompatActivity() {
         currentOperator = operator
         binding.tvFormula.text = "$accumulatedValue$currentOperator"
         binding.tvResult.text = ""
+
+        // Agregar estos casos
+        when (operator) {
+            "%" -> {
+                accumulatedValue = evaluateModulo(accumulatedValue)
+                binding.tvResult.text = accumulatedValue
+            }
+
+            "+/-" -> {
+                accumulatedValue = negateNumber(accumulatedValue)
+                binding.tvResult.text = accumulatedValue
+            }
+        }
     }
+
+    private fun evaluateModulo(value: String): String {
+        val num = value.toDoubleOrNull() ?: return ""
+        return num.toInt().toString()
+    }
+
+    private fun negateNumber(value: String): String {
+        val num = value.toDoubleOrNull() ?: return ""
+        return (-num).toString()
+    }
+
 
     private fun handleEqualInput() {
         if (currentInput.isNotEmpty() && currentOperator.isNotEmpty()) {
@@ -97,7 +122,8 @@ class CalculatorActivity : AppCompatActivity() {
         binding.tvFormula.text = ""
     }
 
-    private fun isOperator(char: String) = char == "+" || char == "-" || char == "*" || char == "/"
+    private fun isOperator(char: String) =
+        char == "+" || char == "-" || char == "*" || char == "/" || char == "%" || char == "+/-"
 }
 
 class ExpressionEvaluator {
@@ -110,6 +136,7 @@ class ExpressionEvaluator {
             "-" -> formatResult(num1 - num2)
             "*" -> formatResult(num1 * num2)
             "/" -> if (num2 == 0.0) "Error" else formatResult(num1 / num2)
+            "%" -> formatResult(num1 % num2)
             else -> ""
         }
     }

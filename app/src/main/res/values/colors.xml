@@ -30,4 +30,11 @@
     <color name="back2">#2C003C</color>
     <color name="back3">#3D0B45</color>
     <color name="soft_purple">#623C6F</color>
+
+    <color name="default_color_1">#333333</color>
+    <color name="pressed_color_1">#B2333333</color>
+    <color name="default_color_2">#F1A33B</color>
+    <color name="pressed_color_2">#B2F1A33B</color>
+    <color name="default_color_3">#A5A5A5</color>
+    <color name="pressed_color_3">#B2A5A5A5</color>
 </resources>
