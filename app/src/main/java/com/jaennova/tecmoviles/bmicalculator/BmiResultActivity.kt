@@ -23,7 +23,6 @@ class BmiResultActivity : AppCompatActivity() {
         val result: Double = intent.extras?.getDouble(IMC_KEY) ?: -1.0
         binding.tvBMIResult.text = result.toString()
         binding.rsBMIResult.isEnabled = false
-
         val resultIMC = result.toFloat()
         configureRangeSlider(resultIMC)
         setResultBmi(result)
@@ -50,6 +49,7 @@ class BmiResultActivity : AppCompatActivity() {
         val descriptionTextResId = getDescriptionResult(result)
         binding.tvBMIResult.text = getString(recommendationTextResId)
         binding.tvBMIResultDetail.text = getString(descriptionTextResId)
+        binding.tvBMI.text = result.toString()
     }
 
     private fun getTitleResult(result: Double): Int {
