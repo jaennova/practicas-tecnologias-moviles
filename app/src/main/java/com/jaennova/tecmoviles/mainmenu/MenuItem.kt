@@ -34,5 +34,10 @@ val menuItems = listOf(
         "Calculator",
         R.drawable.ic_calculator,
         "Aplicacion que calcula el resultado de una operacion"
+    ),
+    MenuItem(
+        "Random User",
+        R.drawable.ic_user,
+        "Aplicacion que consume una API de usuarios aleatorios"
     )
 )

@@ -3,6 +3,7 @@ package com.jaennova.tecmoviles.mainmenu
 import android.content.Intent
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
+import com.jaennova.tecmoviles.apiexample.RandomUserActivity
 import com.jaennova.tecmoviles.bmicalculator.BmiCalculatorActivity
 import com.jaennova.tecmoviles.calculator.CalculatorActivity
 import com.jaennova.tecmoviles.databinding.MenuItemBinding
@@ -31,6 +32,7 @@ class MenuViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             "Super Hero List" -> openActivity(SuperHeroListActivity::class.java)
             "BMI Calculator" -> openActivity(BmiCalculatorActivity::class.java)
             "Calculator" -> openActivity(CalculatorActivity::class.java)
+            "Random User" -> openActivity(RandomUserActivity::class.java)
         }
     }
 

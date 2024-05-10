@@ -39,11 +39,17 @@ android {
 }
 
 dependencies {
-
+    // GSON
+    implementation(libs.gson)
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    // Glide
+    implementation(libs.glide)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation (libs.picasso)
+    implementation(libs.picasso)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
