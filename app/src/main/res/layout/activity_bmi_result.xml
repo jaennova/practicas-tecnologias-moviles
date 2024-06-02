@@ -106,7 +106,7 @@
             android:layout_width="match_parent"
             android:layout_height="270dp"
             android:layout_margin="16dp"
-            android:text="@string/bmi_underweight_recomendation"
+            android:text="@string/bmi_underweight_recommendation"
             android:textColor="@color/bmi_colorTextSecondary"
             android:textSize="16sp" />
 

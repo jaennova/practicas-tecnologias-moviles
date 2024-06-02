@@ -4,37 +4,37 @@
     <color name="white">#FFFFFFFF</color>
 
     <!--Menu-->
-    <color name="menu_background">#fffefb</color>
-    <color name="menu_background_item">#f5f4f1</color>
-    <color name="menu_text">#1d1c1c</color>
-    <color name="menu_text_description">#313d44</color>
+    <color name="menu_background">#FFFFFF</color>
+    <color name="menu_background_item">#F7F7F7</color>
+    <color name="menu_text">#000000</color>
+    <color name="menu_text_description">#2C2C2C</color>
 
     <!--BMI Calculator-->
     <!-- Colores primarios -->
     <color name="bmi_colorPrimary">#3F51B5</color>
-    <color name="bmi_colorPrimaryDark">#757de8</color>
-    <color name="bmi_colorPrimaryLight">#dedeff</color>
+    <color name="bmi_colorPrimaryDark">#303F9F</color>
+    <color name="bmi_colorPrimaryLight">#C5CAE9</color>
     <!-- Colores de acento -->
     <color name="bmi_colorAccent">#FF4081</color>
-    <color name="bmi_colorAccentLight">#ffe4ff</color>
+    <color name="bmi_colorAccentLight">#FF80AB</color>
     <!-- Colores de texto -->
-    <color name="bmi_colorTextPrimary">#FFFFFF</color>
-    <color name="bmi_colorTextSecondary">#CCCCCC</color>
+    <color name="bmi_colorTextPrimary">#000000</color>
+    <color name="bmi_colorTextSecondary">#666666</color>
     <!-- Colores de fondo -->
-    <color name="bmi_colorBackgroundPrimary">#333333</color>
-    <color name="bmi_colorBackgroundSecondary">#2C2C2C</color>
-    <color name="bmi_colorBackgroundTertiary">#1A1A1A</color>
+    <color name="bmi_colorBackgroundPrimary">#F5F5F5</color>
+    <color name="bmi_colorBackgroundSecondary">#EEEEEE</color>
+    <color name="bmi_colorBackgroundTertiary">#E0E0E0</color>
 
     <!--    Calculator-->
-    <color name="back1">#571954</color>
-    <color name="back2">#2C003C</color>
-    <color name="back3">#3D0B45</color>
-    <color name="soft_purple">#623C6F</color>
+    <color name="back1">#D1C4E9</color>
+    <color name="back2">#B39DDB</color>
+    <color name="back3">#9575CD</color>
+    <color name="soft_purple">#B388FF</color>
 
-    <color name="default_color_1">#333333</color>
-    <color name="pressed_color_1">#B2333333</color>
-    <color name="default_color_2">#F1A33B</color>
-    <color name="pressed_color_2">#B2F1A33B</color>
-    <color name="default_color_3">#A5A5A5</color>
-    <color name="pressed_color_3">#B2A5A5A5</color>
+    <color name="default_color_1">#E0E0E0</color>
+    <color name="pressed_color_1">#B3E0E0E0</color>
+    <color name="default_color_2">#FBC02D</color>
+    <color name="pressed_color_2">#B2FBC02D</color>
+    <color name="default_color_3">#9E9E9E</color>
+    <color name="pressed_color_3">#B2BDBDBD</color>
 </resources>

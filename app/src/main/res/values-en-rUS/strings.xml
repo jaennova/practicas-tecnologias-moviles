@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tec Moviles</string>
+    <string name="roll_dice">Dice Roll</string>
+    <string name="welcome">Welcome, %s!</string>
+    <string name="back">Back</string>
+    <string name="bmi_app_title">BMI Calculator</string>
+    <string name="bmi_female">Woman</string>
+    <string name="bmi_male">Man</string>
+    <string name="bmi_height">Height</string>
+    <string name="bmi_initial_height">120cm</string>
+    <string name="bmi_weight">Weight</string>
+    <string name="bmi_age">Age</string>
+    <string name="bmi_calculate">Calculate</string>
+    <string name="bmi_result">Result</string>
+    <string name="bmi_your_bmi">Your BMI is</string>
+    <string name="bmi_result_detail">Diet and nutrition</string>
+    <string name="bmi_recalculate">Recalculate</string>
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal Weight</string>
+    <string name="bmi_overweight">Overwieght</string>
+    <string name="bmi_obesity">Obesity</string>
+    <string name="bmi_error_category_invalid">Error: BMI invalid</string>
+
+    <!-- BMI Recommendations -->
+    <string name="bmi_underweight_recommendation">
+Diet and Nutrition\nIncrease Caloric Intake:\n\t•\tConsume more calorie-dense foods like nuts, avocados, and healthy oils.\n\t•\tIncrease portion sizes during meals.\nChoose Nutrient-Dense Foods:\n\t•\tPrioritize protein-rich foods (lean meats, fish, eggs, legumes).\n\t•\tInclude complex carbohydrates (whole grains, sweet potatoes) for sustained energy.\n\t•\tConsume plenty of fruits and vegetables for essential vitamins and minerals.
+</string>
+
+    <string name="bmi_normal_recommendation">
+Diet and Nutrition\nMaintain a Balanced Diet:\n\t•\tConsume a variety of foods from all food groups in appropriate proportions.\n\t•\tChoose lean protein options like chicken, turkey, fish, and tofu.\n\t•\tInclude a variety of carbohydrates, preferably whole grains, such as brown rice, quinoa, and whole wheat pasta.\n\t•\tEnsure you get enough healthy fats from sources like avocados, nuts, and olive oil.
+</string>
+
+    <string name="bmi_overweight_recommendation">
+Diet and Nutrition\nControl Portion Sizes:\n\t•\tReduce portion sizes to limit calorie intake.\n\t•\tOpt for low-calorie, nutrient-dense foods like fruits, vegetables, and lean proteins.\n\t•\tLimit the consumption of processed foods and those high in saturated fats and added sugars.\nIncrease Physical Activity:\n\t•\tIncorporate regular exercise, such as walking, swimming, or playing sports.
+</string>
+
+    <string name="bmi_obesity_recommendation">
+Diet and Nutrition\nSet Realistic Goals:\n\t•\tSet achievable, short-term goals to improve your health.\n\t•\tTake a gradual approach to making changes in your eating habits and lifestyle.\n\t•\tSeek support from friends, family, or a healthcare professional to stay motivated.\nPrioritize Food Quality:\n\t•\tChoose whole and fresh foods over processed and calorie-dense options.
+</string>
+   <!-- Recommendation Errors -->
+    <string name="bmi_error_recommendation_unknown">Error: Unknown recommendation</string>
+    <string name="bmi_recommendation_title">Recomendation</string>
+
+    <!-- Menu Titles -->
+    <string name="menu_title_lifecycle">Life Cycle</string>
+    <string name="menu_title_dice_roll">Dice Roll</string>
+    <string name="menu_title_greeting">Greeting</string>
+    <string name="menu_title_super_hero_list">Super Hero List</string>
+    <string name="menu_title_bmi_calculator">BMI Calculator</string>
+    <string name="menu_title_calculator">Calculator</string>
+    <string name="menu_title_random_user">Random User</string>
+
+    <!-- Menu Descriptions -->
+    <string name="menu_desc_lifecycle">Application about the lifecycle of an Activity</string>
+    <string name="menu_desc_dice_roll">Simple application that simulates a dice roll</string>
+    <string name="menu_desc_greeting">Simple application that uses intents</string>
+    <string name="menu_desc_super_hero_list">Superheroes application that uses recycler views</string>
+    <string name="menu_desc_bmi_calculator">Application that calculates the body mass index</string>
+    <string name="menu_desc_calculator">Application that calculates the result of an operation</string>
+    <string name="menu_desc_random_user">Application that consumes a random user API</string>
+
+</resources>

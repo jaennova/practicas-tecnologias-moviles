@@ -5,7 +5,7 @@
     <string name="back">Volver</string>
 
     <!--BMI Calculator-->
-    <string name="bmi_app_title">BMI Calculator</string>
+    <string name="bmi_app_title">Calculadora IMC</string>
     <string name="bmi_female">Mujer</string>
     <string name="bmi_male">Hombre</string>
     <string name="bmi_height">Altura</string>
@@ -24,19 +24,19 @@
     <string name="bmi_obesity">Obesidad</string>
     <string name="bmi_error_category_invalid">Error: IMC inválido</string>
     <!-- BMI Recommendations -->
-    <string name="bmi_underweight_recomendation">
+    <string name="bmi_underweight_recommendation">
     Dieta y Nutrición\nAumenta la Ingesta Calórica:\n\t•\tConsume más alimentos ricos en calorías como nueces, aguacates y aceites saludables.\n\t•\tIncrementa el tamaño de las porciones durante las comidas.\nElige Alimentos Densos en Nutrientes:\n\t•\tPrioriza alimentos ricos en proteínas (carnes magras, pescado, huevos, legumbres).\n\t•\tIncluye carbohidratos complejos (cereales integrales, batatas) para obtener energía sostenida.\n\t•\tConsume abundantes frutas y verduras para obtener vitaminas y minerales esenciales.
 </string>
 
-    <string name="bmi_normal_recomendation">
+    <string name="bmi_normal_recommendation">
     Dieta y Nutrición\nMantén una Dieta Equilibrada:\n\t•\tConsume una variedad de alimentos de todos los grupos alimenticios en proporciones adecuadas.\n\t•\tElige opciones de proteínas magras como pollo, pavo, pescado y tofu.\n\t•\tIncluye una variedad de carbohidratos, preferiblemente integrales, como arroz integral, quinoa y pasta integral.\n\t•\tAsegúrate de obtener suficientes grasas saludables de fuentes como aguacates, nueces y aceite de oliva.
 </string>
 
-    <string name="bmi_overweight_recomendation">
+    <string name="bmi_overweight_recommendation">
     Dieta y Nutrición\nControla el Tamaño de las Porciones:\n\t•\tReduce el tamaño de las porciones para limitar la ingesta de calorías.\n\t•\tOpta por alimentos bajos en calorías y densos en nutrientes, como frutas, verduras y proteínas magras.\n\t•\tLimita el consumo de alimentos procesados y aquellos altos en grasas saturadas y azúcares añadidos.\nAumenta la Actividad Física:\n\t•\tIncorpora ejercicio regularmente, como caminar, nadar o practicar deportes.
 </string>
 
-    <string name="bmi_obesity_recomendation">
+    <string name="bmi_obesity_recommendation">
     Dieta y Nutrición\nEstablece Metas Realistas:\n\t•\tFija objetivos alcanzables y a corto plazo para mejorar tu salud.\n\t•\tAdopta un enfoque gradual para realizar cambios en tus hábitos alimenticios y estilo de vida.\n\t•\tBusca apoyo de amigos, familiares o un profesional de la salud para mantenerte motivado.\nPrioriza la Calidad de los Alimentos:\n\t•\tElige alimentos integrales y frescos en lugar de opciones procesadas y ricas en calorías.
 </string>
 
@@ -45,42 +45,62 @@
     <string name="bmi_recommendation_title">Recomendacion</string>
 
     <!--    Calculator-->
-    <string name="ac_desc">C</string>
-    <string name="toggle_neg_desc">make last number negative</string>
-    <string name="toggle_pos_desc">make last number positive</string>
-    <string name="percentage_desc">%</string>
-    <string name="divide_desc">/</string>
-    <string name="seven_desc">7</string>
-    <string name="eight_desc">8</string>
-    <string name="nine_desc">9</string>
-    <string name="four_desc">4</string>
-    <string name="five_desc">5</string>
-    <string name="six_desc">6</string>
-    <string name="one_desc">1</string>
-    <string name="two_desc">2</string>
-    <string name="three_desc">3</string>
-    <string name="zero_desc">0</string>
-    <string name="decimal_add_desc">.</string>
-    <string name="equal_desc">=</string>
-    <string name="addition_desc">+</string>
-    <string name="multiply_desc">*</string>
-    <string name="subtraction_desc">-</string>
+    <string name="ac_desc" translatable="false">C</string>
+    <string name="toggle_neg_desc" translatable="false">make last number negative</string>
+    <string name="toggle_pos_desc" translatable="false">make last number positive</string>
+    <string name="percentage_desc" translatable="false">%</string>
+    <string name="divide_desc" translatable="false">/</string>
+    <string name="seven_desc" translatable="false">7</string>
+    <string name="eight_desc" translatable="false">8</string>
+    <string name="nine_desc" translatable="false">9</string>
+    <string name="four_desc" translatable="false">4</string>
+    <string name="five_desc" translatable="false">5</string>
+    <string name="six_desc" translatable="false">6</string>
+    <string name="one_desc" translatable="false">1</string>
+    <string name="two_desc" translatable="false">2</string>
+    <string name="three_desc" translatable="false">3</string>
+    <string name="zero_desc" translatable="false">0</string>
+    <string name="decimal_add_desc" translatable="false">.</string>
+    <string name="equal_desc" translatable="false">=</string>
+    <string name="addition_desc" translatable="false">+</string>
+    <string name="multiply_desc" translatable="false">*</string>
+    <string name="subtraction_desc" translatable="false">-</string>
 
-    <string name="_0">0</string>
-    <string name="c">C</string>
-    <string name="plus">+</string>
-    <string name="divide">/</string>
-    <string name="_7">7</string>
-    <string name="_8">8</string>
-    <string name="_9">9</string>
-    <string name="multiply">*</string>
-    <string name="_4">4</string>
-    <string name="_5">5</string>
-    <string name="_6">6</string>
-    <string name="mines">-</string>
-    <string name="_1">1</string>
-    <string name="_2">2</string>
-    <string name="_3">3</string>
-    <string name="equal">=</string>
-    <string name="dot">.</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="c" translatable="false">C</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="divide" translatable="false">/</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="multiply" translatable="false">*</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="mines" translatable="false">-</string>
+    <string name="_1" translatable="false">1</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="equal" translatable="false">=</string>
+    <string name="dot" translatable="false">.</string>
+
+    <!-- Menu Titles -->
+    <string name="menu_title_lifecycle">Ciclo de Vida</string>
+    <string name="menu_title_dice_roll">Lanzamiento de Dados</string>
+    <string name="menu_title_greeting">Saludo</string>
+    <string name="menu_title_super_hero_list">Lista de Superhéroes</string>
+    <string name="menu_title_bmi_calculator">Calculadora de IMC</string>
+    <string name="menu_title_calculator">Calculadora</string>
+    <string name="menu_title_random_user">Usuario Aleatorio</string>
+
+    <!-- Menu Descriptions -->
+    <string name="menu_desc_lifecycle">Aplicación sobre el ciclo de vida de un Activity</string>
+    <string name="menu_desc_dice_roll">Aplicación simple que simula la acción de un dado</string>
+    <string name="menu_desc_greeting">Aplicación simple que usa intents</string>
+    <string name="menu_desc_super_hero_list">Aplicación de superhéroes que hace uso de recycler views</string>
+    <string name="menu_desc_bmi_calculator">Aplicación que calcula el índice de masa corporal</string>
+    <string name="menu_desc_calculator">Aplicación que calcula el resultado de una operación</string>
+    <string name="menu_desc_random_user">Aplicación que consume una API de usuarios aleatorios</string>
+
+
 </resources>

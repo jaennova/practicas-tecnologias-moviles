@@ -64,10 +64,10 @@ class BmiResultActivity : AppCompatActivity() {
 
     private fun getDescriptionResult(result: Double): Int {
         return when (result) {
-            in 0.00..18.50 -> R.string.bmi_underweight_recomendation
-            in 18.51..24.99 -> R.string.bmi_normal_recomendation
-            in 25.00..29.99 -> R.string.bmi_overweight_recomendation
-            in 30.00..99.00 -> R.string.bmi_obesity_recomendation
+            in 0.00..18.50 -> R.string.bmi_underweight_recommendation
+            in 18.51..24.99 -> R.string.bmi_normal_recommendation
+            in 25.00..29.99 -> R.string.bmi_overweight_recommendation
+            in 30.00..99.00 -> R.string.bmi_obesity_recommendation
             else -> R.string.bmi_error_recommendation_unknown
         }
     }
